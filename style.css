@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+    font-family: "Noto", sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .content {
+    max-width: 1024px;
+    margin: 5px;
+  }
+
+  .headlineContainer {
+    background-color: lightgrey;
+  }
+
+  h1 {
+    color: rgb(75, 73, 73);
+    padding: 15px;
+  }
+
+  #state {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .outerContainer {
+    width: calc(1024px / 3);
+  }
+
+  .stateContainer {
+    border: solid 10px lightgrey;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+
+  .stateName {
+    color: black;
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+
+  .population {
+    color: grey;
+  }
