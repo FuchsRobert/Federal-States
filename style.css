@@ -9,6 +9,7 @@ body {
 
   .content {
     max-width: 1024px;
+    min-width: 1024px;
     margin: 5px;
   }
 
@@ -48,4 +49,18 @@ body {
 
   .population {
     color: grey;
+  }
+
+  .buttonContainer {
+    margin-top: 10px;
+  }
+
+  button {
+    width: 30px;
+    height: 30px;
+  }
+
+  .resetButton {
+    width: auto;
+    height: 30px;
   }

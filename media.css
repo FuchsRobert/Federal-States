@@ -1,0 +1,14 @@
+@media (min-width: 800px) and (max-width: 1040px) {
+  .outerContainer {
+    width: calc(800px / 3);
+  }
+
+  .content {
+    width: auto;
+  }
+
+  .headlineContainer {
+    width: 800px;
+
+  }
+}

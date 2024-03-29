@@ -111,4 +111,23 @@ function forward(url) {
 }
 
 
+function filterState(startingLetter) {
+    const stateContainer = document.getElementById("state");
+    stateContainer.innerHTML = "";
+
+    for (let i = 0; i < federalStates.length; i++) {
+        let state = federalStates[i];
+        if (state.name.charAt(0).toUpperCase() === startingLetter) {
+            let stateDiv = createStateDiv(state);
+            stateContainer.appendChild(stateDiv);
+        }
+    }
+}
+
+
+function reset() {
+    show();
+}
+
+
 show();

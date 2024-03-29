@@ -4,22 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bundesländer</title>
-    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css">
   </head>
 
   <body onload="show()">
 
     <div class="content">
-
       <div class="headlineContainer">
         <h1>BUNDESLÄNDER</h1>
       </div>
 
-        <div id="state">
-        </div>
+      <div id="state"></div>
+
+      <div class="buttonContainer">
+        <button onclick="filterState('B')">B</button>
+        <button onclick="filterState('M')">M</button>
+        <button onclick="filterState('N')">N</button>
+        <button onclick="filterState('H')">H</button>
+        <button onclick="filterState('R')">R</button>
+        <button onclick="filterState('S')">S</button>
+        <button onclick="filterState('T')">T</button>
+        <button onclick="reset()" class="resetButton">Reset</button>
+      </div>
 
     </div>
+
     <script src="./script.js"></script>
   </body>
 </html>
